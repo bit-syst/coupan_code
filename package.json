@@ -5,18 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "cf:build": "npx @opennextjs/cloudflare build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && wrangler pages deploy out --project-name=coupon-card-printer"
   },
   "dependencies": {
-    "next": "^14.2.35",
+    "next": "14.2.3",
     "qrcode.react": "^4.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18",
+    "react-dom": "^18",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^1.18.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
