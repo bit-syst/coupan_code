@@ -3,4 +3,4 @@ main = ".open-next/worker.js"
 compatibility_date = "2024-12-01"
 
 [build]
-command = "npx opennextjs-cloudflare build"
+command = "npm run build"
