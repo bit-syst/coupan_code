@@ -1,0 +1,41 @@
+
+> coupon-card-printer@0.1.0 dev
+> next dev --port 3000
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1267ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (468 modules)
+ GET /?_cb=1775635647272 200 in 2811ms
+ ✓ Compiled in 147ms (242 modules)
+ GET /?_cb=1775635686167 200 in 39ms
+ ✓ Compiled in 466ms (501 modules)
+ ✓ Compiled in 134ms (470 modules)
+ GET /?_cb=1775635859254 200 in 151ms
+ ✓ Compiled in 240ms (470 modules)
+ GET / 200 in 49ms
+ GET /?_cb=1775635930188 200 in 20ms
+ GET /?_cb=1775636101148 200 in 22ms
+ ✓ Compiled in 237ms (468 modules)
+ ✓ Compiled in 213ms (468 modules)
+ GET /?_cb=1775636193840 200 in 114ms
+ ✓ Compiled in 142ms (242 modules)
+ ✓ Compiled in 173ms (468 modules)
+ ✓ Compiled in 441ms (470 modules)
+ ✓ Compiled in 280ms (470 modules)
+ GET /?_cb=1775636678190 200 in 118ms
+ GET /?_cb=1775636684898 200 in 24ms
+ ✓ Compiled in 233ms (470 modules)
+ ✓ Compiled in 161ms (470 modules)
+ ✓ Compiled in 283ms (470 modules)
+ ✓ Compiled in 307ms (470 modules)
+ ✓ Compiled in 193ms (470 modules)
+ GET /?_cb=1775637407972 200 in 124ms
