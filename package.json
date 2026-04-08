@@ -2,11 +2,12 @@
   "name": "coupon-card-printer",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "npx @opennextjs/cloudflare build",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "NEXT_PRIVATE_BUILD_WORKER=1 next build",
+  "cf:build": "npx @opennextjs/cloudflare build",
+  "start": "next start"
+},
   "dependencies": {
     "next": "^16.2.2",
     "qrcode.react": "^4.2.0",
