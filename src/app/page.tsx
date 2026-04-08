@@ -9,9 +9,9 @@ import PositionControls from "@/components/PositionControls";
 export default function Home() {
   const [coupons, setCoupons] = useState<string[]>([]);
   // Default position targets the pill box on the left panel
-  const [x, setX] = useState(6);
-  const [y, setY] = useState(63);
-  const [fontSize, setFontSize] = useState(10);
+  const [x, setX] = useState(25);
+  const [y, setY] = useState(69.5);
+  const [fontSize, setFontSize] = useState(15);
 
   const handlePos = (nx: number, ny: number, nf: number) => {
     setX(nx); setY(ny); setFontSize(nf);
